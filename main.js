@@ -1,5 +1,5 @@
-'use strict';
-const assert = require('assert');
+// 'use strict';
+// const assert = require('assert');
 
 const arrOfPeople = [
     {
@@ -90,7 +90,7 @@ const arrOfPeople = [
     arrOfPeople.map(person => {
       const li = document.createElement("li")
       const button = document.createElement("button")
-      button.innerHTML = "Make Player"
+      button.innerHTML = "Sign Up"
       button.addEventListener('click', function() {
         makePlayer(person.id) 
         listElement.removeChild(li)
